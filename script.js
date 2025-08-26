@@ -339,7 +339,7 @@ const TRACKS = [
     {
         id: '44',
         title: '2 Number',
-        artist: 'Deep Jandu',
+        artist: 'Aminder Gill',
         src: 'audio/44.mp3',
         cover: 'img/44.jpg'
     },

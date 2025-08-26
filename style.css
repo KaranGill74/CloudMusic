@@ -295,7 +295,7 @@ body {
 .bottom-bar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 16px;
     border: 1px solid var(--border);
     border-radius: 16px;
@@ -328,6 +328,7 @@ body {
     padding: 8px 14px;
     color: var(--text);
     cursor: pointer;
+    margin-left: auto;
 }
 
 .like.active {

@@ -17,6 +17,7 @@ const nextBtn = document.getElementById('nextBtn');
 const shuffleBtn = document.getElementById('shuffleBtn');
 const repeatBtn = document.getElementById('repeatBtn');
 const likeBtn = document.getElementById('likeBtn');
+const downloadBtn = document.getElementById('downloadBtn');
 
 const tabs = document.querySelectorAll('.tab');
 const menuToggle = document.getElementById('menuToggle');
@@ -589,6 +590,15 @@ function setView(view) {
     renderPlaylist();
 }
 
+function downloadCurrentTrack() {
+    const track = TRACKS[state.index];
+    const link = document.createElement('a');
+    link.href = track.src;
+    link.download = `${track.title} - ${track.artist}.mp3`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
 // --- Event wiring
 playPauseBtn.addEventListener('click', () => state.isPlaying ? pause() : play());
 nextBtn.addEventListener('click', next);
@@ -596,6 +606,7 @@ prevBtn.addEventListener('click', prev);
 shuffleBtn.addEventListener('click', toggleShuffle);
 repeatBtn.addEventListener('click', toggleRepeat);
 likeBtn.addEventListener('click', toggleLike);
+downloadBtn.addEventListener('click', downloadCurrentTrack);
 
 searchInput.addEventListener('input', (e) => {
     state.filter = e.target.value;

@@ -343,6 +343,41 @@ const TRACKS = [
         src: 'audio/44.mp3',
         cover: 'img/44.jpg'
     },
+    {
+        id: '45',
+        title: 'Challenge',
+        artist: 'Ninja',
+        src: 'audio/45.mp3',
+        cover: 'img/45.jpg'
+    },
+    {
+        id: '46',
+        title: 'Paapi',
+        artist: 'Sidhu Moose Wala',
+        src: 'audio/46.mp3',
+        cover: 'img/46.jpg'
+    },
+    {
+        id: '47',
+        title: 'Emotional Banda',
+        artist: 'Ranjit Bawa',
+        src: 'audio/47.mp3',
+        cover: 'img/47.jpg'
+    },
+    {
+        id: '48',
+        title: 'Sohne Mukhde Da',
+        artist: 'Sharry Mann',
+        src: 'audio/48.mp3',
+        cover: 'img/48.jpg'
+    },
+    {
+        id: '49',
+        title: 'Fight',
+        artist: 'KS Makhan',
+        src: 'audio/49.mp3',
+        cover: 'img/49.webp'
+    },
    
 ];
 

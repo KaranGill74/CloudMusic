@@ -336,6 +336,13 @@ const TRACKS = [
         src: 'audio/43.mp3',
         cover: 'img/43.jpg'
     },
+    {
+        id: '44',
+        title: '2 Number',
+        artist: 'Deep Jandu',
+        src: 'audio/44.mp3',
+        cover: 'img/44.jpg'
+    },
    
 ];
 

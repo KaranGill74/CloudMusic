@@ -506,16 +506,17 @@ function toggleShuffle() {
     localStorage.setItem(STORAGE_KEYS.SHUFFLE, state.shuffle);
 }
 function toggleRepeat() {
-    state.repeat = !state.repeat;
+    state.repeat = !state.repeat; // only toggle between true/false
     repeatBtn.classList.toggle('active', state.repeat);
     localStorage.setItem(STORAGE_KEYS.REPEAT, state.repeat);
 
     if (state.repeat) {
-        repeatBtn.innerHTML = '<i class="bi bi-repeat-1"></i>'; // repeat-one icon
+        repeatBtn.innerHTML = '<i class="bi bi-repeat-1"></i>'; // Repeat One
     } else {
-        repeatBtn.innerHTML = '<i class="bi bi-repeat"></i>';   // normal repeat icon
+        repeatBtn.innerHTML = '<i class="bi bi-repeat"></i>';   // Repeat Off
     }
 }
+
 
 
 function toggleLike() {

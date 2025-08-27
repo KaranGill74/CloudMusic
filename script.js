@@ -379,6 +379,41 @@ const TRACKS = [
         src: 'audio/49.mp3',
         cover: 'img/49.webp'
     },
+    {
+        id: '50',
+        title: 'Dildarian',
+        artist: 'Aminder Gill',
+        src: 'audio/50.mp3',
+        cover: 'img/50.jpg'
+    },
+    {
+        id: '51',
+        title: 'Meri Zindgi Bana Ja',
+        artist: 'Sharry Mann',
+        src: 'audio/51.mp3',
+        cover: 'img/51.webp'
+    },
+    {
+        id: '52',
+        title: 'Sohni Kuri',
+        artist: 'Amnider Gill',
+        src: 'audio/52.mp3',
+        cover: 'img/52.webp'
+    },
+    {
+        id: '53',
+        title: 'Changa Mada Time',
+        artist: 'A-kay',
+        src: 'audio/53.mp3',
+        cover: 'img/53.jpg'
+    },
+    {
+        id: '54',
+        title: 'Guerrilla War',
+        artist: 'Amrit Maan',
+        src: 'audio/54.mp3',
+        cover: 'img/54.jpg'
+    },
    
 ];
 

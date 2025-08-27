@@ -414,6 +414,34 @@ const TRACKS = [
         src: 'audio/54.mp3',
         cover: 'img/54.jpg'
     },
+    {
+        id: '55',
+        title: 'Gabbroo',
+        artist: 'Jassi Gill',
+        src: 'audio/55.mp3',
+        cover: 'img/55.jpg'
+    },
+    {
+        id: '56',
+        title: 'Dil Tutda',
+        artist: 'Jassi Gill',
+        src: 'audio/56.mp3',
+        cover: 'img/56.jpg'
+    },
+    {
+        id: '57',
+        title: 'Lahore',
+        artist: 'Ranjit Bawa',
+        src: 'audio/57.mp3',
+        cover: 'img/57.jpg'
+    },
+    {
+        id: '58',
+        title: 'Guitar Sikhda',
+        artist: 'Jassi Gill',
+        src: 'audio/58.mp3',
+        cover: 'img/58.jpg'
+    },
    
 ];
 

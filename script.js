@@ -442,6 +442,27 @@ const TRACKS = [
         src: 'audio/58.mp3',
         cover: 'img/58.jpg'
     },
+    {
+        id: '59',
+        title: 'Yaarian',
+        artist: 'Amnider Gill',
+        src: 'audio/59.mp3',
+        cover: 'img/59.jpg'
+    },
+    {
+        id: '60',
+        title: 'Aroma',
+        artist: 'Sidhu Moose Wala',
+        src: 'audio/60.mp3',
+        cover: 'img/60.jpg'
+    },
+    {
+        id: '61',
+        title: 'Saahan Nu Suroor',
+        artist: 'Feroz Khan',
+        src: 'audio/61.mp3',
+        cover: 'img/61.jpg'
+    },
    
 ];
 

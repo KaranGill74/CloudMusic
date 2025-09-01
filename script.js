@@ -463,6 +463,20 @@ const TRACKS = [
         src: 'audio/61.mp3',
         cover: 'img/61.jpg'
     },
+    {
+        id: '62',
+        title: 'Peshi',
+        artist: 'Zora Randhawa',
+        src: 'audio/62.mp3',
+        cover: 'img/62.jpg'
+    },
+    {
+        id: '63',
+        title: 'Diary',
+        artist: 'Amnider Gill',
+        src: 'audio/63.mp3',
+        cover: 'img/63.jpg'
+    },
    
 ];
 

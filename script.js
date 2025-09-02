@@ -81,7 +81,7 @@ const TRACKS = [
     {
         id: '7',
         title: 'King Shit',
-        artist:'Shubh',
+        artist: 'Shubh',
         src: 'audio/7.mp3',
         cover: 'img/7.jpg'
     },
@@ -477,7 +477,92 @@ const TRACKS = [
         src: 'audio/63.mp3',
         cover: 'img/63.jpg'
     },
-   
+    {
+        id: '64',
+        title: 'Dil Da Dimaag',
+        artist: 'Sharry Maan',
+        src: 'audio/64.mp3',
+        cover: 'img/64.jpg'
+    },
+    {
+        id: '65',
+        title: 'Sher-E-Panjab',
+        artist: 'Arjan Dhillon',
+        src: 'audio/65.mp3',
+        cover: 'img/65.jpg'
+    },
+    {
+        id: '66',
+        title: 'Oh Kyu Ni Jaan Ske',
+        artist: 'Ninja',
+        src: 'audio/66.mp3',
+        cover: 'img/66.jpg'
+    },
+    {
+        id: '67',
+        title: 'Loud Jatt',
+        artist: 'Garrie Dhaliwal',
+        src: 'audio/67.mp3',
+        cover: 'img/67.jpg'
+    },
+    {
+        id: '68',
+        title: 'Police',
+        artist: 'Cheema Y',
+        src: 'audio/68.mp3',
+        cover: 'img/68.jpg'
+    },
+    {
+        id: '69',
+        title: 'Vaaj',
+        artist: 'Kanwar Grewal',
+        src: 'audio/69.mp3',
+        cover: 'img/69.jpg'
+    },
+    {
+        id: '70',
+        title: 'Big Scene',
+        artist: 'Diljit Dosanjh',
+        src: 'audio/70.mp3',
+        cover: 'img/70.jpg'
+    },
+    {
+        id: '71',
+        title: 'Jordan',
+        artist: 'A Key',
+        src: 'audio/71.mp3',
+        cover: 'img/71.jpg'
+    },
+    {
+        id: '72',
+        title: 'Bass Baliye',
+        artist: 'Gurj Sidhu',
+        src: 'audio/72.mp3',
+        cover: 'img/72.jpg'
+    },
+    {
+        id: '73',
+        title: 'Dil Yaaran De',
+        artist: 'Gurj Sidhu',
+        src: 'audio/73.mp3',
+        cover: 'img/73.jpg'
+    },
+    {
+        id: '74',
+        title: 'Kaali Range',
+        artist: 'R Nait',
+        src: 'audio/74.mp3',
+        cover: 'img/74.jpg'
+    },
+    {
+        id: '75',
+        title: 'Adha Pind',
+        artist: 'Gurj Sidhu',
+        src: 'audio/75.mp3',
+        cover: 'img/75.jpg'
+    }
+
+
 ];
 
 let state = {
@@ -488,7 +573,7 @@ let state = {
     repeat: loadBool(STORAGE_KEYS.REPEAT, false),
     favorites: loadJSON(STORAGE_KEYS.FAVORITES, []),
     recents: loadJSON(STORAGE_KEYS.RECENTS, []),
-    view: localStorage.getItem(STORAGE_KEYS.VIEW) || 'all', 
+    view: localStorage.getItem(STORAGE_KEYS.VIEW) || 'all',
     filter: ''
 };
 
@@ -779,7 +864,7 @@ menuToggle.addEventListener('click', () => {
 
 // Close menu when clicking outside on mobile
 document.addEventListener('click', (e) => {
-    if (window.innerWidth <= 900 && 
+    if (window.innerWidth <= 900 &&
         sidebar.classList.contains('active') &&
         !sidebar.contains(e.target) &&
         !menuToggle.contains(e.target)) {

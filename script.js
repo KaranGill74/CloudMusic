@@ -560,7 +560,14 @@ const TRACKS = [
         artist: 'Gurj Sidhu',
         src: 'audio/75.mp3',
         cover: 'img/75.jpg'
-    }
+    },
+    {
+        id: '76',
+        title: 'Flop ',
+        artist: 'Sidhu Moose Wala',
+        src: 'audio/76.mp3',
+        cover: 'img/76.jpg'
+    },
 
 
 ];
